@@ -1,6 +1,6 @@
 # Welcome to [Astro](https://astro.build)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![License](https://img.shields.io/github/license/SalGnt/astro-template?style=for-the-badge)](https://github.com/SalGnt/next-template/blob/main/LICENSE)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 

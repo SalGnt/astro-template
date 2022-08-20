@@ -1,6 +1,6 @@
 # Welcome to [Astro](https://astro.build)
 
-[![License](https://img.shields.io/github/license/SalGnt/astro-template?style=for-the-badge)](https://github.com/SalGnt/next-template/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/SalGnt/astro-template)](https://github.com/SalGnt/next-template/blob/main/LICENSE)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 

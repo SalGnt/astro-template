@@ -11,13 +11,23 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "postinstall": "npx simple-git-hooks"
   },
   "devDependencies": {
     "@astrojs/image": "^0.3.4",
     "@astrojs/tailwind": "^1.0.0",
     "astro": "^1.0.6",
+    "nano-staged": "^0.8.0",
     "prettier": "^2.7.1",
-    "prettier-plugin-astro": "^0.5.0"
+    "prettier-plugin-astro": "^0.5.0",
+    "simple-git-hooks": "^2.8.0"
+  },
+  "nano-staged": {
+    "**/*": "prettier --ignore-path .gitignore --ignore-unknown -w --plugin-search-dir=. ."
+  },
+  "simple-git-hooks": {
+    "pre-commit": "./node_modules/.bin/nano-staged",
+    "preserveUnused": true
   }
 }

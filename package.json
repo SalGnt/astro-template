@@ -1,7 +1,11 @@
 {
-  "name": "@example/basics",
+  "name": "@salgnt/astro-template",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -12,6 +16,8 @@
   "devDependencies": {
     "@astrojs/image": "^0.3.4",
     "@astrojs/tailwind": "^1.0.0",
-    "astro": "^1.0.6"
+    "astro": "^1.0.6",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.0"
   }
 }
